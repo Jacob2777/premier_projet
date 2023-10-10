@@ -1,0 +1,192 @@
+.video {
+    width: 100%;
+}
+
+h2{
+    margin-top: 40px;
+}
+
+.a_propos {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.a_propos div{
+    padding-bottom: 40px;
+}
+
+.a_propos h2 {
+    padding-bottom: 40px;
+}
+
+.infolettre {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/menu/salade_du_jour.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: top 65% right 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--blanc);
+}
+
+.infolettre h2{
+    margin: 0px;
+}
+
+.texte_infolettre {
+    color: var(--gris);
+    width: 30vw;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 15px;
+    font-size: var(--texte);
+    width: 30vw;
+}
+
+.btn {
+    margin: auto;
+}
+
+.btn:hover {
+    background-color: var(--rouge_fonce);
+}
+
+.menu h2 {
+    text-align: center;
+}
+
+.cases {
+    display: flex;
+    justify-content: center;
+}
+
+.case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    color: var(--blanc);
+    margin-top: 60px;
+    font-size: var(--texte_boutton);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+.case:hover{
+    transform: scale(0.95);
+}
+
+a {
+    text-decoration: none;
+}
+
+.entrees {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/menu/potage_du_moment.jpg");
+    background-position: center;
+    background-size: cover;
+    transform: scale(0.85);
+}
+
+.plats {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/menu/burger.jpg");
+    background-position: center;
+    background-size: cover;
+    transform: scale(0.85);
+}
+
+.desserts {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/menu/brownie.jpg");
+    background-position: top 80% right 0;
+    background-size: cover;
+    transform: scale(0.85);
+}
+
+.joindre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    gap: 110px;
+    padding: 70px 0;
+    width: 1200px;
+    border: 2px solid var(--noir);
+    transform: scale(0.85);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.joindre .map{
+    padding-left: 50px;
+}
+
+.joindre h2 {
+    margin: 40px 0 0 0;
+}
+
+.joindre h3,
+.joindre div {
+    margin-bottom: 40px;
+}
+
+.lien_reseaux:hover{
+    transform: scale(1.15);
+}
+
+.avis {
+    border: 2px solid var(--noir);
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 400px;
+    padding-top: 40px;
+    text-align: center;
+    margin: 50px auto;
+    align-items: center;
+    transform: scale(0.85);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pdp {
+    border-radius: 50%;
+    width: 150px;
+    transform: scale(0.85);
+}
+
+.commentaires {
+    padding-top: 50px;
+    width: 80%;
+    overflow: hidden;
+    transform: scale(0.85);
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.avis.centre {
+    transform: scale(1.15);
+}
+
+.img_footer{
+    height: 680px;
+    width: 100%;
+    background-image: url("../img/menu/filets_de_poulet.jpg");
+    background-position: top 30% right 0%;
+    background-size: cover;
+}

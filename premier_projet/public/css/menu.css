@@ -1,0 +1,78 @@
+.cases_menu img{
+    width: 200px;
+    height: 150px;
+}
+
+.cases_menu {
+    position: relative;
+    margin: auto;
+    width: 45%;
+    clear: both;
+}
+
+.case_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px black;
+    margin-bottom: 15px;
+}
+
+.case_menu:last-child{
+    border: none;
+}
+
+.infos{
+    width: 40%;
+}
+
+.infos div{
+    font-size: 16px;
+}
+
+.infos h2{
+    font-size: 30px;
+}
+
+.description{
+    padding-bottom: 30px;
+}
+
+.prix{
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.liens{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.liens a{
+    color: var(--rouge);
+    font-size: var(--textes);
+    font-family: var(--police);
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.liens a:hover{
+    text-decoration: underline;
+}
+
+.liens a.active {
+    text-decoration: underline;
+}
+
+div.infos{
+    margin: 0px;
+}
+
+header{
+    margin-bottom: 60px;
+}
+
+footer{
+    margin-top: 150px;
+}

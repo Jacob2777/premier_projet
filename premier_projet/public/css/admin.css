@@ -1,0 +1,32 @@
+div.plats{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+div.plat{
+    border: 2px solid black;
+    padding: 15px;
+}
+
+a{
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.retour{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.liens{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.active{
+    text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+section.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50vh;
+    transform: translate(0, -60%);
+    gap: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn{
+    transform: scale(0.85);
+}
+
+h1{
+    font-size: 40px;
+}

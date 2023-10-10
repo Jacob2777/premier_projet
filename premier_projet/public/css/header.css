@@ -1,0 +1,47 @@
+div.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--noir);
+  margin: 0;
+
+  width: 100%;
+  z-index: 10;
+}
+
+.logo {
+  height: 100px;
+  margin: 15px;
+  margin-left: 40px;
+}
+
+.menu_lien {
+  color: var(--blanc);
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+.menu_lien:hover {
+  color: var(--rouge);
+}
+
+.infolettre_menu {
+  background-color: var(--rouge);
+  padding: 60px 30px;
+  margin-right: 40px;
+}
+
+.infolettre_menu:hover {
+  background-color: var(--rouge_fonce);
+  color: white;
+}
+
+.liens_reseaux {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.lien_reseau:hover{
+  transform: scale(1.15);
+}

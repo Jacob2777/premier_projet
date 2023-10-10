@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+    --rouge: #8b1a1a;
+    --rouge_fonce: #7e1313;
+    --noir: #151616;
+    --blanc: #F2F2F2;
+    --gris: #D4D4D4;
+    --footer: #707070;
+    --textes: 20px;
+    --titres: 40px;
+    --texte_boutton: 25px;
+    --police: 'Lato', sans-serif;
+}
